@@ -1,0 +1,1515 @@
+
+======================================================================
+VALIDATION RUN: Verification test section
+Timestamp: 2026-04-30 15:23:10 UTC
+======================================================================
+
+  [PASS] Test rule 1  — detail A
+  [FAIL] Test rule 2  — detail B
+  [INFO] Informational note
+
+Summary: 1 passed, 1 failed — FAILED (1 failures)
+
+======================================================================
+VALIDATION RUN: Verification test section
+Timestamp: 2026-04-30 15:24:49 UTC
+======================================================================
+
+  [PASS] Test rule 1  — detail A
+  [FAIL] Test rule 2  — detail B
+  [INFO] Informational note
+
+Summary: 1 passed, 1 failed — FAILED (1 failures)
+
+======================================================================
+VALIDATION RUN: Initial NFHS-5 data validation — post-download gates
+Timestamp: 2026-05-01 07:38:21 UTC
+======================================================================
+
+  [PASS] G1: Row count above minimum  — 215,244 rows (min 190,000)
+  [PASS] G2: No DHS missing codes remain  — All 9996-9999 replaced with NaN
+  [FAIL] G3: Z-scores outside physiological range  — Out-of-range: {'HAZ': 5064, 'WAZ': 1160, 'WHZ': 12844}
+  [PASS] G4: Stunting prevalence within expected range  — 33.9% (expected 30%–42%)
+  [PASS] G5: Underweight prevalence within expected range  — 30.2% (expected 27%–38%)
+  [PASS] G6: Wasting prevalence within expected range  — 17.4% (expected 15%–25%)
+  [PASS] G7: Target labels contain only 0 and 1  — 3 columns verified
+  [FAIL] G8: Duplicate rows present  — 35 duplicate rows
+  [PASS] G9: All required columns present  — ['HAZ', 'WAZ', 'WHZ', 'stunted', 'underweight', 'wasted']
+  [PASS] G10: Class weights computed  — {'stunted': 1.9456, 'underweight': 2.3093, 'wasted': 4.7317}
+  [PASS] G11: Key feature columns have no nulls  — ['HV270', 'B4', 'V025']
+  [PASS] G12: Cleaning log has entries  — 32 entries recorded
+
+======================================================================
+VALIDATION RUN: Initial NFHS-5 data validation — post-download gates
+Timestamp: 2026-05-01 07:38:53 UTC
+======================================================================
+
+  [PASS] G1: Row count above minimum  — 215,244 rows (min 190,000)
+  [PASS] G2: No DHS missing codes remain  — All 9996-9999 replaced with NaN
+  [FAIL] G3: Z-scores outside physiological range  — Out-of-range: {'HAZ': 5064, 'WAZ': 1160, 'WHZ': 12844}
+  [PASS] G4: Stunting prevalence within expected range  — 33.9% (expected 30%–42%)
+  [PASS] G5: Underweight prevalence within expected range  — 30.2% (expected 27%–38%)
+  [PASS] G6: Wasting prevalence within expected range  — 17.4% (expected 15%–25%)
+  [PASS] G7: Target labels contain only 0 and 1  — 3 columns verified
+  [FAIL] G8: Duplicate rows present  — 35 duplicate rows
+  [PASS] G9: All required columns present  — ['HAZ', 'WAZ', 'WHZ', 'stunted', 'underweight', 'wasted']
+  [PASS] G10: Class weights computed  — {'stunted': 1.9456, 'underweight': 2.3093, 'wasted': 4.7317}
+  [PASS] G11: Key feature columns have no nulls  — ['HV270', 'B4', 'V025']
+  [PASS] G12: Cleaning log has entries  — 35 entries recorded
+
+======================================================================
+VALIDATION RUN: Initial NFHS-5 data validation — post-download gates
+Timestamp: 2026-05-01 07:42:02 UTC
+======================================================================
+
+  [PASS] G1: Row count above minimum  — 215,244 rows (min 190,000)
+  [PASS] G2: No DHS missing codes remain  — All 9996-9999 replaced with NaN
+  [FAIL] G3: Z-scores outside physiological range  — Out-of-range: {'HAZ': 5064, 'WAZ': 1160, 'WHZ': 12844}
+  [PASS] G4: Stunting prevalence within expected range  — 33.9% (expected 30%–42%)
+  [PASS] G5: Underweight prevalence within expected range  — 30.2% (expected 27%–38%)
+  [PASS] G6: Wasting prevalence within expected range  — 17.4% (expected 15%–25%)
+  [PASS] G7: Target labels contain only 0 and 1  — 3 columns verified
+  [FAIL] G8: Duplicate rows present  — 35 duplicate rows
+  [PASS] G9: All required columns present  — ['HAZ', 'WAZ', 'WHZ', 'stunted', 'underweight', 'wasted']
+  [PASS] G10: Class weights computed  — {'stunted': 1.9456, 'underweight': 2.3093, 'wasted': 4.7317}
+  [PASS] G11: Key feature columns have no nulls  — ['HV270', 'B4', 'V025']
+  [PASS] G12: Cleaning log has entries  — 38 entries recorded
+
+Summary: 10 passed, 2 failed — FAILED (2 failures)
+
+======================================================================
+VALIDATION RUN: Initial NFHS-5 data validation — post-download gates
+Timestamp: 2026-05-01 07:42:47 UTC
+======================================================================
+
+  [PASS] G1: Row count above minimum  — 215,244 rows (min 190,000)
+  [PASS] G2: No DHS missing codes remain  — All 9996-9999 replaced with NaN
+  [FAIL] G3: Z-scores outside physiological range  — Out-of-range: {'HAZ': 5064, 'WAZ': 1160, 'WHZ': 12844}
+  [PASS] G4: Stunting prevalence within expected range  — 33.9% (expected 30%–42%)
+  [PASS] G5: Underweight prevalence within expected range  — 30.2% (expected 27%–38%)
+  [PASS] G6: Wasting prevalence within expected range  — 17.4% (expected 15%–25%)
+  [PASS] G7: Target labels contain only 0 and 1  — 3 columns verified
+  [FAIL] G8: Duplicate rows present  — 35 duplicate rows
+  [PASS] G9: All required columns present  — ['HAZ', 'WAZ', 'WHZ', 'stunted', 'underweight', 'wasted']
+  [PASS] G10: Class weights computed  — {'stunted': 1.9456, 'underweight': 2.3093, 'wasted': 4.7317}
+  [PASS] G11: Key feature columns have no nulls  — ['HV270', 'B4', 'V025']
+  [PASS] G12: Cleaning log has entries  — 41 entries recorded
+
+Summary: 10 passed, 2 failed — FAILED (2 failures)
+
+======================================================================
+VALIDATION RUN: Initial NFHS-5 data validation — post-download gates
+Timestamp: 2026-05-01 07:46:08 UTC
+======================================================================
+
+  [PASS] G1: Row count above minimum  — 215,244 rows (min 190,000)
+  [PASS] G2: No DHS missing codes remain  — All 9996-9999 replaced with NaN
+  [FAIL] G3: Z-scores outside physiological range  — Out-of-range: {'HAZ': 5064, 'WAZ': 1160, 'WHZ': 12844}
+  [PASS] G4: Stunting prevalence within expected range  — 33.9% (expected 30%–42%)
+  [PASS] G5: Underweight prevalence within expected range  — 30.2% (expected 27%–38%)
+  [PASS] G6: Wasting prevalence within expected range  — 17.4% (expected 15%–25%)
+  [PASS] G7: Target labels contain only 0 and 1  — 3 columns verified
+  [FAIL] G8: Duplicate rows present  — 35 duplicate rows
+  [PASS] G9: All required columns present  — ['HAZ', 'WAZ', 'WHZ', 'stunted', 'underweight', 'wasted']
+  [PASS] G10: Class weights computed  — {'stunted': 1.9456, 'underweight': 2.3093, 'wasted': 4.7317}
+  [PASS] G11: Key feature columns have no nulls  — ['HV270', 'B4', 'V025']
+  [PASS] G12: Cleaning log has entries  — 44 entries recorded
+
+Summary: 10 passed, 2 failed — FAILED (2 failures)
+
+======================================================================
+VALIDATION RUN: Initial NFHS-5 data validation — post-download gates
+Timestamp: 2026-05-01 07:47:47 UTC
+======================================================================
+
+  [PASS] G1: Row count above minimum  — 215,244 rows (min 190,000)
+  [PASS] G2: No DHS missing codes remain  — All 9996-9999 replaced with NaN
+  [FAIL] G3: Z-scores outside physiological range  — Out-of-range: {'HAZ': 5064, 'WAZ': 1160, 'WHZ': 12844}
+  [PASS] G4: Stunting prevalence within expected range  — 33.9% (expected 30%–42%)
+  [PASS] G5: Underweight prevalence within expected range  — 30.2% (expected 27%–38%)
+  [PASS] G6: Wasting prevalence within expected range  — 17.4% (expected 15%–25%)
+  [PASS] G7: Target labels contain only 0 and 1  — 3 columns verified
+  [FAIL] G8: Duplicate rows present  — 35 duplicate rows
+  [PASS] G9: All required columns present  — ['HAZ', 'WAZ', 'WHZ', 'stunted', 'underweight', 'wasted']
+  [PASS] G10: Class weights computed  — {'stunted': 1.9456, 'underweight': 2.3093, 'wasted': 4.7317}
+  [PASS] G11: Key feature columns have no nulls  — ['HV270', 'B4', 'V025']
+  [PASS] G12: Cleaning log has entries  — 52 entries recorded
+
+Summary: 10 passed, 2 failed — FAILED (2 failures)
+
+======================================================================
+VALIDATION RUN: Initial NFHS-5 data validation — post-download gates
+Timestamp: 2026-05-01 07:48:42 UTC
+======================================================================
+
+  [PASS] G1: Row count above minimum  — 215,244 rows (min 190,000)
+  [PASS] G2: No DHS missing codes remain  — All 9996-9999 replaced with NaN
+  [FAIL] G3: Z-scores outside physiological range  — Out-of-range: {'HAZ': 5064, 'WAZ': 1160, 'WHZ': 12844}
+  [PASS] G4: Stunting prevalence within expected range  — 33.9% (expected 30%–42%)
+  [PASS] G5: Underweight prevalence within expected range  — 30.2% (expected 27%–38%)
+  [PASS] G6: Wasting prevalence within expected range  — 17.4% (expected 15%–25%)
+  [PASS] G7: Target labels contain only 0 and 1  — 3 columns verified
+  [FAIL] G8: Duplicate rows present  — 35 duplicate rows
+  [PASS] G9: All required columns present  — ['HAZ', 'WAZ', 'WHZ', 'stunted', 'underweight', 'wasted']
+  [PASS] G10: Class weights computed  — {'stunted': 1.9456, 'underweight': 2.3093, 'wasted': 4.7317}
+  [PASS] G11: Key feature columns have no nulls  — ['HV270', 'B4', 'V025']
+  [PASS] G12: Cleaning log has entries  — 55 entries recorded
+
+Summary: 10 passed, 2 failed — FAILED (2 failures)
+
+======================================================================
+VALIDATION RUN: Initial NFHS-5 data validation — post-download gates
+Timestamp: 2026-05-01 07:53:39 UTC
+======================================================================
+
+  [PASS] G1: Row count above minimum  — 211,639 rows (min 190,000)
+  [PASS] G2: No DHS missing codes remain  — All 9996-9999 replaced with NaN
+  [PASS] G3: Z-scores within physiological range [-6, +6]  — All clear
+  [PASS] G4: Stunting prevalence within expected range  — 34.5% (expected 30%–42%)
+  [PASS] G5: Underweight prevalence within expected range  — 30.7% (expected 27%–38%)
+  [PASS] G6: Wasting prevalence within expected range  — 17.7% (expected 15%–25%)
+  [PASS] G7: Target labels contain only 0 and 1  — 3 columns verified
+  [PASS] G8: No duplicate rows  — All rows are unique
+  [PASS] G9: All required columns present  — ['HAZ', 'WAZ', 'WHZ', 'stunted', 'underweight', 'wasted']
+  [PASS] G10: Class weights computed  — {'stunted': 1.8964, 'underweight': 2.2539, 'wasted': 4.6357}
+  [PASS] G11: Key feature columns have no nulls  — ['HV270', 'B4', 'V025']
+  [PASS] G12: Cleaning log has entries  — 63 entries recorded
+
+Summary: 12 passed, 0 failed — ALL PASSED
+
+======================================================================
+VALIDATION RUN: Initial NFHS-5 data validation — post-download gates
+Timestamp: 2026-05-01 07:54:15 UTC
+======================================================================
+
+  [PASS] G1: Row count above minimum  — 211,639 rows (min 190,000)
+  [PASS] G2: No DHS missing codes remain  — All 9996-9999 replaced with NaN
+  [PASS] G3: Z-scores within physiological range [-6, +6]  — All clear
+  [PASS] G4: Stunting prevalence within expected range  — 34.5% (expected 30%–42%)
+  [PASS] G5: Underweight prevalence within expected range  — 30.7% (expected 27%–38%)
+  [PASS] G6: Wasting prevalence within expected range  — 17.7% (expected 15%–25%)
+  [PASS] G7: Target labels contain only 0 and 1  — 3 columns verified
+  [PASS] G8: No duplicate rows  — All rows are unique
+  [PASS] G9: All required columns present  — ['HAZ', 'WAZ', 'WHZ', 'stunted', 'underweight', 'wasted']
+  [PASS] G10: Class weights computed  — {'stunted': 1.8964, 'underweight': 2.2539, 'wasted': 4.6357}
+  [PASS] G11: Key feature columns have no nulls  — ['HV270', 'B4', 'V025']
+  [PASS] G12: Cleaning log has entries  — 66 entries recorded
+
+Summary: 12 passed, 0 failed — ALL PASSED
+
+======================================================================
+VALIDATION RUN: Initial NFHS-5 data validation — post-download gates
+Timestamp: 2026-05-01 08:01:34 UTC
+======================================================================
+
+  [PASS] G1: Row count above minimum  — 211,639 rows (min 190,000)
+  [PASS] G2: No DHS missing codes remain  — All 9996-9999 replaced with NaN
+  [PASS] G3: Z-scores within physiological range [-6, +6]  — All clear
+  [PASS] G4: Stunting prevalence within expected range  — 34.5% (expected 30%–42%)
+  [PASS] G5: Underweight prevalence within expected range  — 30.7% (expected 27%–38%)
+  [PASS] G6: Wasting prevalence within expected range  — 17.7% (expected 15%–25%)
+  [PASS] G7: Target labels contain only 0 and 1  — 3 columns verified
+  [PASS] G8: No duplicate rows  — All rows are unique
+  [PASS] G9: All required columns present  — ['HAZ', 'WAZ', 'WHZ', 'stunted', 'underweight', 'wasted']
+  [PASS] G10: Class weights computed  — {'stunted': 1.8964, 'underweight': 2.2539, 'wasted': 4.6357}
+  [PASS] G11: Key feature columns have no nulls  — ['HV270', 'B4', 'V025']
+  [PASS] G12: Cleaning log has entries  — 69 entries recorded
+
+Summary: 12 passed, 0 failed — ALL PASSED
+
+======================================================================
+VALIDATION RUN: Label integrity validation post-apply_who_thresholds
+Timestamp: 2026-05-01 08:28:02 UTC
+======================================================================
+
+  [PASS] V1: All target columns present  — ['stunted', 'underweight', 'wasted']
+  [PASS] V2: stunted is binary  — Values: {0, 1}
+  [PASS] V2: underweight is binary  — Values: {0, 1}
+  [PASS] V2: wasted is binary  — Values: {0, 1}
+  [PASS] V3: stunted prevalence in expected range  — 35.5% (expected 30%–42%)
+  [PASS] V4: underweight prevalence in expected range  — 30.9% (expected 27%–38%)
+  [PASS] V5: wasted prevalence in expected range  — 18.6% (expected 15%–25%)
+  [PASS] V6: Row count meets minimum  — 229,048
+  [PASS] V7: Label-Z-score consistency  — No orphaned Z-scores
+
+Summary: 9 passed, 0 failed — ALL PASSED
+
+======================================================================
+VALIDATION RUN: Label integrity validation post-apply_who_thresholds
+Timestamp: 2026-05-01 08:37:38 UTC
+======================================================================
+
+  [PASS] V1: All target columns present  — ['stunted', 'underweight', 'wasted']
+  [PASS] V2: stunted is binary  — Values: {0, 1}
+  [PASS] V2: underweight is binary  — Values: {0, 1}
+  [PASS] V2: wasted is binary  — Values: {0, 1}
+  [PASS] V3: stunted prevalence in expected range  — 35.5% (expected 30%–42%)
+  [PASS] V4: underweight prevalence in expected range  — 30.9% (expected 27%–38%)
+  [PASS] V5: wasted prevalence in expected range  — 18.6% (expected 15%–25%)
+  [PASS] V6: Row count meets minimum  — 229,048
+  [PASS] V7: Label-Z-score consistency  — No orphaned Z-scores
+
+Summary: 9 passed, 0 failed — ALL PASSED
+
+======================================================================
+VALIDATION RUN: Label integrity validation post-apply_who_thresholds
+Timestamp: 2026-05-01 08:38:06 UTC
+======================================================================
+
+  [PASS] V1: All target columns present  — ['stunted', 'underweight', 'wasted']
+  [PASS] V2: stunted is binary  — Values: {0, 1}
+  [PASS] V2: underweight is binary  — Values: {0, 1}
+  [PASS] V2: wasted is binary  — Values: {0, 1}
+  [PASS] V3: stunted prevalence in expected range  — 35.5% (expected 30%–42%)
+  [PASS] V4: underweight prevalence in expected range  — 30.9% (expected 27%–38%)
+  [PASS] V5: wasted prevalence in expected range  — 18.6% (expected 15%–25%)
+  [PASS] V6: Row count meets minimum  — 229,048
+  [PASS] V7: Label-Z-score consistency  — No orphaned Z-scores
+
+Summary: 9 passed, 0 failed — ALL PASSED
+
+======================================================================
+VALIDATION RUN: Label integrity validation post-apply_who_thresholds
+Timestamp: 2026-05-01 08:47:40 UTC
+======================================================================
+
+  [PASS] V1: All target columns present  — ['stunted', 'underweight', 'wasted']
+  [PASS] V2: stunted is binary  — Values: {0, 1}
+  [PASS] V2: underweight is binary  — Values: {0, 1}
+  [PASS] V2: wasted is binary  — Values: {0, 1}
+  [PASS] V3: stunted prevalence in expected range  — 35.5% (expected 30%–42%)
+  [PASS] V4: underweight prevalence in expected range  — 30.9% (expected 27%–38%)
+  [PASS] V5: wasted prevalence in expected range  — 18.6% (expected 15%–25%)
+  [PASS] V6: Row count meets minimum  — 229,048
+  [PASS] V7: Label-Z-score consistency  — No orphaned Z-scores
+
+Summary: 9 passed, 0 failed — ALL PASSED
+
+======================================================================
+VALIDATION RUN: Label integrity validation post-apply_who_thresholds
+Timestamp: 2026-05-01 08:48:55 UTC
+======================================================================
+
+  [PASS] V1: All target columns present  — ['stunted', 'underweight', 'wasted']
+  [PASS] V2: stunted is binary  — Values: {0, 1}
+  [PASS] V2: underweight is binary  — Values: {0, 1}
+  [PASS] V2: wasted is binary  — Values: {0, 1}
+  [PASS] V3: stunted prevalence in expected range  — 35.5% (expected 30%–42%)
+  [PASS] V4: underweight prevalence in expected range  — 30.9% (expected 27%–38%)
+  [PASS] V5: wasted prevalence in expected range  — 18.6% (expected 15%–25%)
+  [PASS] V6: Row count meets minimum  — 229,048
+  [PASS] V7: Label-Z-score consistency  — No orphaned Z-scores
+
+Summary: 9 passed, 0 failed — ALL PASSED
+
+======================================================================
+VALIDATION RUN: Synthetic valid test
+Timestamp: 2026-05-01 09:08:04 UTC
+======================================================================
+
+  [PASS] row_count  — 191000
+  [PASS] no_missing_codes  — True
+  [PASS] z_score_scale  — True
+  [PASS] label_binary  — True
+  [PASS] no_duplicates  — 0
+  [PASS] prevalence  — {'stunted': 0.3491, 'underweight': 0.3195, 'wasted': 0.19}
+
+Summary: 6 passed, 0 failed — ALL PASSED
+
+======================================================================
+VALIDATION RUN: Multi-failure test
+Timestamp: 2026-05-01 09:08:05 UTC
+======================================================================
+
+  [PASS] row_count  — 191000
+  [PASS] no_missing_codes  — True
+  [PASS] z_score_scale  — True
+  [PASS] label_binary  — True
+  [PASS] no_duplicates  — 0
+  [FAIL] prevalence  — 
+[VALIDATION FAILED] stunted_prevalence
+  Found:    0.00%
+  Expected: 30% – 42%  (source: NFHS-5 National Fact Sheet (2019-21), India)
+  Action:   Prevalence is too low. Check missing code replacement
+
+Summary: 5 passed, 1 failed — FAILED (1 failures)
+
+======================================================================
+VALIDATION RUN: Synthetic valid test
+Timestamp: 2026-05-01 09:11:56 UTC
+======================================================================
+
+  [PASS] row_count  — 191000
+  [PASS] no_missing_codes  — True
+  [PASS] z_score_scale  — True
+  [PASS] label_binary  — True
+  [PASS] no_duplicates  — 0
+  [PASS] prevalence  — {'stunted': 0.3491, 'underweight': 0.3195, 'wasted': 0.19}
+
+Summary: 6 passed, 0 failed — ALL PASSED
+
+======================================================================
+VALIDATION RUN: Multi-failure test
+Timestamp: 2026-05-01 09:11:56 UTC
+======================================================================
+
+  [PASS] row_count  — 191000
+  [PASS] no_missing_codes  — True
+  [PASS] z_score_scale  — True
+  [PASS] label_binary  — True
+  [PASS] no_duplicates  — 0
+  [FAIL] prevalence  — 
+[VALIDATION FAILED] stunted_prevalence
+  Found:    0.00%
+  Expected: 30% – 42%  (source: NFHS-5 National Fact Sheet (2019-21), India)
+  Action:   Prevalence is too low. Check missing code replacement
+  [FAIL] prevalence  — 
+[VALIDATION FAILED] wasted_prevalence
+  Found:    0.00%
+  Expected: 17% – 22%  (source: NFHS-5 National Fact Sheet (2019-21), India)
+  Action:   Prevalence is too low. Check missing code replacement,
+
+Summary: 5 passed, 2 failed — FAILED (2 failures)
+
+======================================================================
+VALIDATION RUN: Synthetic valid test
+Timestamp: 2026-05-01 09:12:07 UTC
+======================================================================
+
+  [PASS] row_count  — 191000
+  [PASS] no_missing_codes  — True
+  [PASS] z_score_scale  — True
+  [PASS] label_binary  — True
+  [PASS] no_duplicates  — 0
+  [PASS] prevalence  — {'stunted': 0.3491, 'underweight': 0.3195, 'wasted': 0.19}
+
+Summary: 6 passed, 0 failed — ALL PASSED
+
+======================================================================
+VALIDATION RUN: Multi-failure test
+Timestamp: 2026-05-01 09:12:07 UTC
+======================================================================
+
+  [PASS] row_count  — 191000
+  [PASS] no_missing_codes  — True
+  [PASS] z_score_scale  — True
+  [PASS] label_binary  — True
+  [PASS] no_duplicates  — 0
+  [FAIL] prevalence  — 
+[VALIDATION FAILED] stunted_prevalence
+  Found:    0.00%
+  Expected: 30% – 42%  (source: NFHS-5 National Fact Sheet (2019-21), India)
+  Action:   Prevalence is too low. Check missing code replacement
+  [FAIL] prevalence  — 
+[VALIDATION FAILED] wasted_prevalence
+  Found:    0.00%
+  Expected: 17% – 22%  (source: NFHS-5 National Fact Sheet (2019-21), India)
+  Action:   Prevalence is too low. Check missing code replacement,
+
+Summary: 5 passed, 2 failed — FAILED (2 failures)
+
+======================================================================
+MALNUTRISENSE — DATA VALIDATION REPORT
+Generated: 2026-05-01 09:16:47 UTC
+Script:    scripts/generate_report.py
+======================================================================
+
+SECTION 1: ENVIRONMENT
+──────────────────────────────────────────────────────────────────────
+  Python version:  3.12.1
+  Platform:        Linux 6.8.0-1044-azure
+  Environment:     PASS
+  Cleaned data:    /workspaces/malnutrisense/data/processed/nfhs5_cleaned.csv
+
+SECTION 2: DATASET STATISTICS
+──────────────────────────────────────────────────────────────────────
+  Rows:     229,048
+  Columns:  17
+  Cols:     ['v024', 'v025', 'v106', 'v130', 'b4', 'm4', 'm19', 'h11', 'hw1', 'hw2', 'hw3', 'HAZ', 'WAZ', 'WHZ', 'stunted', 'underweight', 'wasted']
+
+  Missing values per column (non-zero only):
+    WHZ                           27,368 (11.9%)
+    wasted                        27,368 (11.9%)
+    HAZ                           23,029 (10.1%)
+    stunted                       23,029 (10.1%)
+    WAZ                           18,531 (8.1%)
+    underweight                   18,531 (8.1%)
+
+SECTION 3: VALIDATION CHECKS
+──────────────────────────────────────────────────────────────────────
+  Running validate_all_soft() — collects all failures
+
+
+======================================================================
+VALIDATION RUN: generate_report — 2026-05-01 09:16:47 UTC
+Timestamp: 2026-05-01 09:16:47 UTC
+======================================================================
+
+  [PASS] row_count  — 229048
+  [PASS] no_missing_codes  — True
+  [PASS] z_score_scale  — True
+  [PASS] label_binary  — True
+  [FAIL] no_duplicates  — 
+[VALIDATION FAILED] no_duplicate_rows
+  Found:    692 duplicate rows
+  Expected: <= 100 duplicate rows (NFHS tolerance)
+  Action:   Check preprocessing.remove_duplicates() was called.
+
+Summary: 4 passed, 1 failed — FAILED (1 failures)
+  RESULT: 1 CHECK(S) FAILED
+
+  Failure 1:
+    [VALIDATION FAILED] no_duplicate_rows
+      Found:    692 duplicate rows
+      Expected: <= 100 duplicate rows (NFHS tolerance)
+      Action:   Check preprocessing.remove_duplicates() was called.
+
+SECTION 4: PREVALENCE AND CLASS BALANCE
+──────────────────────────────────────────────────────────────────────
+  Phenotype              Measured           Threshold    Status
+  -------------------- ----------  ------------------  --------
+  stunted                  35.5%  30% – 42%              PASS
+  underweight              30.9%  30% – 35%              PASS
+  wasted                   18.6%  17% – 22%              PASS
+
+  XGBoost scale_pos_weight:
+    stunted              1.7864
+    underweight          2.4099
+    wasted               4.3937
+
+SECTION 5: TRAIN / TEST SPLIT
+──────────────────────────────────────────────────────────────────────
+  X_train        159,036 rows  x  11 cols
+  X_test          39,760 rows  x  11 cols
+  y_train        159,036 rows  x  3 cols
+  y_test          39,760 rows  x  3 cols
+
+SECTION 6: OVERALL VERDICT
+======================================================================
+  VERDICT: FAIL (1 failure(s))
+  Fix all failures above before starting model training.
+  Re-run: python3 scripts/run_pipeline.py
+          python3 scripts/generate_report.py
+======================================================================
+
+
+======================================================================
+VALIDATION RUN: VERIFY: intentional failure
+Timestamp: 2026-05-01 09:17:43 UTC
+======================================================================
+
+  [PASS] row_count  — 190100
+  [PASS] no_missing_codes  — True
+  [PASS] z_score_scale  — True
+  [PASS] label_binary  — True
+  [PASS] no_duplicates  — 0
+  [FAIL] prevalence  — 
+[VALIDATION FAILED] stunted_prevalence
+  Found:    4.97%
+  Expected: 30% – 42%  (source: NFHS-5 National Fact Sheet (2019-21), India)
+  Action:   Prevalence is too low. Check missing code replacement
+
+Summary: 5 passed, 1 failed — FAILED (1 failures)
+
+======================================================================
+MALNUTRISENSE — DATA VALIDATION REPORT
+Generated: 2026-05-01 09:20:19 UTC
+Script:    scripts/generate_report.py
+======================================================================
+
+SECTION 1: ENVIRONMENT
+──────────────────────────────────────────────────────────────────────
+  Python version:  3.12.1
+  Platform:        Linux 6.8.0-1044-azure
+  Environment:     PASS
+  Cleaned data:    /workspaces/malnutrisense/data/processed/nfhs5_cleaned.csv
+
+SECTION 2: DATASET STATISTICS
+──────────────────────────────────────────────────────────────────────
+  Rows:     229,048
+  Columns:  17
+  Cols:     ['v024', 'v025', 'v106', 'v130', 'b4', 'm4', 'm19', 'h11', 'hw1', 'hw2', 'hw3', 'HAZ', 'WAZ', 'WHZ', 'stunted', 'underweight', 'wasted']
+
+  Missing values per column (non-zero only):
+    WHZ                           27,368 (11.9%)
+    wasted                        27,368 (11.9%)
+    HAZ                           23,029 (10.1%)
+    stunted                       23,029 (10.1%)
+    WAZ                           18,531 (8.1%)
+    underweight                   18,531 (8.1%)
+
+SECTION 3: VALIDATION CHECKS
+──────────────────────────────────────────────────────────────────────
+  Running validate_all_soft() — collects all failures
+
+
+======================================================================
+VALIDATION RUN: generate_report — 2026-05-01 09:20:19 UTC
+Timestamp: 2026-05-01 09:20:20 UTC
+======================================================================
+
+  [PASS] row_count  — 229048
+  [PASS] no_missing_codes  — True
+  [PASS] z_score_scale  — True
+  [PASS] label_binary  — True
+  [FAIL] no_duplicates  — 
+[VALIDATION FAILED] no_duplicate_rows
+  Found:    692 duplicate rows
+  Expected: <= 100 duplicate rows (NFHS tolerance)
+  Action:   Check preprocessing.remove_duplicates() was called.
+
+Summary: 4 passed, 1 failed — FAILED (1 failures)
+  RESULT: 1 CHECK(S) FAILED
+
+  Failure 1:
+    [VALIDATION FAILED] no_duplicate_rows
+      Found:    692 duplicate rows
+      Expected: <= 100 duplicate rows (NFHS tolerance)
+      Action:   Check preprocessing.remove_duplicates() was called.
+
+SECTION 4: PREVALENCE AND CLASS BALANCE
+──────────────────────────────────────────────────────────────────────
+  Phenotype              Measured           Threshold    Status
+  -------------------- ----------  ------------------  --------
+  stunted                  35.5%  30% – 42%              PASS
+  underweight              30.9%  30% – 35%              PASS
+  wasted                   18.6%  17% – 22%              PASS
+
+  XGBoost scale_pos_weight:
+    stunted              1.7864
+    underweight          2.4099
+    wasted               4.3937
+
+SECTION 5: TRAIN / TEST SPLIT
+──────────────────────────────────────────────────────────────────────
+  X_train        159,036 rows  x  11 cols
+  X_test          39,760 rows  x  11 cols
+  y_train        159,036 rows  x  3 cols
+  y_test          39,760 rows  x  3 cols
+
+SECTION 6: OVERALL VERDICT
+======================================================================
+  VERDICT: FAIL (1 failure(s))
+  Fix all failures above before starting model training.
+  Re-run: python3 scripts/run_pipeline.py
+          python3 scripts/generate_report.py
+======================================================================
+
+
+======================================================================
+MALNUTRISENSE — DATA VALIDATION REPORT
+Generated: 2026-05-01 09:24:31 UTC
+Script:    scripts/generate_report.py
+======================================================================
+
+SECTION 1: ENVIRONMENT
+──────────────────────────────────────────────────────────────────────
+  Python version:  3.12.1
+  Platform:        Linux 6.8.0-1044-azure
+  Environment:     PASS
+  Cleaned data:    /workspaces/malnutrisense/data/processed/nfhs5_cleaned.csv
+
+SECTION 2: DATASET STATISTICS
+──────────────────────────────────────────────────────────────────────
+  Rows:     229,048
+  Columns:  17
+  Cols:     ['v024', 'v025', 'v106', 'v130', 'b4', 'm4', 'm19', 'h11', 'hw1', 'hw2', 'hw3', 'HAZ', 'WAZ', 'WHZ', 'stunted', 'underweight', 'wasted']
+
+  Missing values per column (non-zero only):
+    WHZ                           27,368 (11.9%)
+    wasted                        27,368 (11.9%)
+    HAZ                           23,029 (10.1%)
+    stunted                       23,029 (10.1%)
+    WAZ                           18,531 (8.1%)
+    underweight                   18,531 (8.1%)
+
+SECTION 3: VALIDATION CHECKS
+──────────────────────────────────────────────────────────────────────
+  Running validate_all_soft() — collects all failures
+
+
+======================================================================
+VALIDATION RUN: generate_report — 2026-05-01 09:24:31 UTC
+Timestamp: 2026-05-01 09:24:31 UTC
+======================================================================
+
+  [PASS] row_count  — 229048
+  [PASS] no_missing_codes  — True
+  [PASS] z_score_scale  — True
+  [PASS] label_binary  — True
+  [FAIL] no_duplicates  — 
+[VALIDATION FAILED] no_duplicate_rows
+  Found:    692 duplicate rows
+  Expected: <= 100 duplicate rows (NFHS tolerance)
+  Action:   Check preprocessing.remove_duplicates() was called.
+
+Summary: 4 passed, 1 failed — FAILED (1 failures)
+  RESULT: 1 CHECK(S) FAILED
+
+  Failure 1:
+    [VALIDATION FAILED] no_duplicate_rows
+      Found:    692 duplicate rows
+      Expected: <= 100 duplicate rows (NFHS tolerance)
+      Action:   Check preprocessing.remove_duplicates() was called.
+
+SECTION 4: PREVALENCE AND CLASS BALANCE
+──────────────────────────────────────────────────────────────────────
+  Phenotype              Measured           Threshold    Status
+  -------------------- ----------  ------------------  --------
+  stunted                  35.5%  30% – 42%              PASS
+  underweight              30.9%  30% – 35%              PASS
+  wasted                   18.6%  17% – 22%              PASS
+
+  XGBoost scale_pos_weight:
+    stunted              1.7864
+    underweight          2.4099
+    wasted               4.3937
+
+SECTION 5: TRAIN / TEST SPLIT
+──────────────────────────────────────────────────────────────────────
+  X_train        159,036 rows  x  11 cols
+  X_test          39,760 rows  x  11 cols
+  y_train        159,036 rows  x  3 cols
+  y_test          39,760 rows  x  3 cols
+
+SECTION 6: OVERALL VERDICT
+======================================================================
+  VERDICT: FAIL (1 failure(s))
+  Fix all failures above before starting model training.
+  Re-run: python3 scripts/run_pipeline.py
+          python3 scripts/generate_report.py
+======================================================================
+
+
+======================================================================
+VALIDATION RUN: Label integrity validation post-apply_who_thresholds
+Timestamp: 2026-05-01 09:26:15 UTC
+======================================================================
+
+  [PASS] V1: All target columns present  — ['stunted', 'underweight', 'wasted']
+  [PASS] V2: stunted is binary  — Values: {0, 1}
+  [PASS] V2: underweight is binary  — Values: {0, 1}
+  [PASS] V2: wasted is binary  — Values: {0, 1}
+  [PASS] V3: stunted prevalence in expected range  — 35.5% (expected 30%–42%)
+  [PASS] V4: underweight prevalence in expected range  — 30.9% (expected 27%–38%)
+  [PASS] V5: wasted prevalence in expected range  — 18.6% (expected 15%–25%)
+  [PASS] V6: Row count meets minimum  — 229,048
+  [PASS] V7: Label-Z-score consistency  — No orphaned Z-scores
+
+Summary: 9 passed, 0 failed — ALL PASSED
+
+======================================================================
+MALNUTRISENSE — DATA VALIDATION REPORT
+Generated: 2026-05-01 09:26:38 UTC
+Script:    scripts/generate_report.py
+======================================================================
+
+SECTION 1: ENVIRONMENT
+──────────────────────────────────────────────────────────────────────
+  Python version:  3.12.1
+  Platform:        Linux 6.8.0-1044-azure
+  Environment:     PASS
+  Cleaned data:    /workspaces/malnutrisense/data/processed/nfhs5_cleaned.csv
+
+SECTION 2: DATASET STATISTICS
+──────────────────────────────────────────────────────────────────────
+  Rows:     229,048
+  Columns:  17
+  Cols:     ['v024', 'v025', 'v106', 'v130', 'b4', 'm4', 'm19', 'h11', 'hw1', 'hw2', 'hw3', 'HAZ', 'WAZ', 'WHZ', 'stunted', 'underweight', 'wasted']
+
+  Missing values per column (non-zero only):
+    WHZ                           27,368 (11.9%)
+    wasted                        27,368 (11.9%)
+    HAZ                           23,029 (10.1%)
+    stunted                       23,029 (10.1%)
+    WAZ                           18,531 (8.1%)
+    underweight                   18,531 (8.1%)
+
+SECTION 3: VALIDATION CHECKS
+──────────────────────────────────────────────────────────────────────
+  Running validate_all_soft() — collects all failures
+
+
+======================================================================
+VALIDATION RUN: generate_report — 2026-05-01 09:26:38 UTC
+Timestamp: 2026-05-01 09:26:38 UTC
+======================================================================
+
+  [PASS] row_count  — 229048
+  [PASS] no_missing_codes  — True
+  [PASS] z_score_scale  — True
+  [PASS] label_binary  — True
+  [FAIL] no_duplicates  — 
+[VALIDATION FAILED] no_duplicate_rows
+  Found:    692 duplicate rows
+  Expected: <= 100 duplicate rows (NFHS tolerance)
+  Action:   Check preprocessing.remove_duplicates() was called.
+
+Summary: 4 passed, 1 failed — FAILED (1 failures)
+  RESULT: 1 CHECK(S) FAILED
+
+  Failure 1:
+    [VALIDATION FAILED] no_duplicate_rows
+      Found:    692 duplicate rows
+      Expected: <= 100 duplicate rows (NFHS tolerance)
+      Action:   Check preprocessing.remove_duplicates() was called.
+
+SECTION 4: PREVALENCE AND CLASS BALANCE
+──────────────────────────────────────────────────────────────────────
+  Phenotype              Measured           Threshold    Status
+  -------------------- ----------  ------------------  --------
+  stunted                  35.5%  30% – 42%              PASS
+  underweight              30.9%  30% – 35%              PASS
+  wasted                   18.6%  17% – 22%              PASS
+
+  XGBoost scale_pos_weight:
+    stunted              1.7864
+    underweight          2.4099
+    wasted               4.3937
+
+SECTION 5: TRAIN / TEST SPLIT
+──────────────────────────────────────────────────────────────────────
+  X_train        159,036 rows  x  11 cols
+  X_test          39,760 rows  x  11 cols
+  y_train        159,036 rows  x  3 cols
+  y_test          39,760 rows  x  3 cols
+
+SECTION 6: OVERALL VERDICT
+======================================================================
+  VERDICT: FAIL (1 failure(s))
+  Fix all failures above before starting model training.
+  Re-run: python3 scripts/run_pipeline.py
+          python3 scripts/generate_report.py
+======================================================================
+
+
+======================================================================
+VALIDATION RUN: Label integrity validation post-apply_who_thresholds
+Timestamp: 2026-05-01 09:32:23 UTC
+======================================================================
+
+  [PASS] V1: All target columns present  — ['stunted', 'underweight', 'wasted']
+  [PASS] V2: stunted is binary  — Values: {0, 1}
+  [PASS] V2: underweight is binary  — Values: {0, 1}
+  [PASS] V2: wasted is binary  — Values: {0, 1}
+  [PASS] V3: stunted prevalence in expected range  — 35.5% (expected 30%–42%)
+  [PASS] V4: underweight prevalence in expected range  — 30.9% (expected 27%–38%)
+  [PASS] V5: wasted prevalence in expected range  — 18.6% (expected 15%–25%)
+  [PASS] V6: Row count meets minimum  — 228,356
+  [PASS] V7: Label-Z-score consistency  — No orphaned Z-scores
+
+Summary: 9 passed, 0 failed — ALL PASSED
+
+======================================================================
+MALNUTRISENSE — DATA VALIDATION REPORT
+Generated: 2026-05-01 09:32:42 UTC
+Script:    scripts/generate_report.py
+======================================================================
+
+SECTION 1: ENVIRONMENT
+──────────────────────────────────────────────────────────────────────
+  Python version:  3.12.1
+  Platform:        Linux 6.8.0-1044-azure
+  Environment:     PASS
+  Cleaned data:    /workspaces/malnutrisense/data/processed/nfhs5_cleaned.csv
+
+SECTION 2: DATASET STATISTICS
+──────────────────────────────────────────────────────────────────────
+  Rows:     228,356
+  Columns:  17
+  Cols:     ['v024', 'v025', 'v106', 'v130', 'b4', 'm4', 'm19', 'h11', 'hw1', 'hw2', 'hw3', 'HAZ', 'WAZ', 'WHZ', 'stunted', 'underweight', 'wasted']
+
+  Missing values per column (non-zero only):
+    WHZ                           26,676 (11.7%)
+    wasted                        26,676 (11.7%)
+    HAZ                           22,338 (9.8%)
+    stunted                       22,338 (9.8%)
+    WAZ                           17,841 (7.8%)
+    underweight                   17,841 (7.8%)
+
+SECTION 3: VALIDATION CHECKS
+──────────────────────────────────────────────────────────────────────
+  Running validate_all_soft() — collects all failures
+
+
+======================================================================
+VALIDATION RUN: generate_report — 2026-05-01 09:32:42 UTC
+Timestamp: 2026-05-01 09:32:42 UTC
+======================================================================
+
+  [PASS] row_count  — 228356
+  [PASS] no_missing_codes  — True
+  [PASS] z_score_scale  — True
+  [PASS] label_binary  — True
+  [PASS] no_duplicates  — 0
+
+Summary: 5 passed, 0 failed — ALL PASSED
+  RESULT: ALL 6 CHECKS PASSED
+
+SECTION 4: PREVALENCE AND CLASS BALANCE
+──────────────────────────────────────────────────────────────────────
+  Phenotype              Measured           Threshold    Status
+  -------------------- ----------  ------------------  --------
+  stunted                  35.5%  30% – 42%              PASS
+  underweight              30.9%  30% – 35%              PASS
+  wasted                   18.6%  17% – 22%              PASS
+
+  XGBoost scale_pos_weight:
+    stunted              1.7864
+    underweight          2.4099
+    wasted               4.3937
+
+SECTION 5: TRAIN / TEST SPLIT
+──────────────────────────────────────────────────────────────────────
+  X_train        159,036 rows  x  11 cols
+  X_test          39,760 rows  x  11 cols
+  y_train        159,036 rows  x  3 cols
+  y_test          39,760 rows  x  3 cols
+
+SECTION 6: OVERALL VERDICT
+======================================================================
+  VERDICT: PASS
+  All validation checks passed. Dataset ready for model training.
+======================================================================
+
+
+======================================================================
+MALNUTRISENSE — DATA VALIDATION REPORT
+Generated: 2026-05-01 09:33:33 UTC
+Script:    scripts/generate_report.py
+======================================================================
+
+SECTION 1: ENVIRONMENT
+──────────────────────────────────────────────────────────────────────
+  Python version:  3.12.1
+  Platform:        Linux 6.8.0-1044-azure
+  Environment:     PASS
+  Cleaned data:    /workspaces/malnutrisense/data/processed/nfhs5_cleaned.csv
+
+SECTION 2: DATASET STATISTICS
+──────────────────────────────────────────────────────────────────────
+  Rows:     228,356
+  Columns:  17
+  Cols:     ['v024', 'v025', 'v106', 'v130', 'b4', 'm4', 'm19', 'h11', 'hw1', 'hw2', 'hw3', 'HAZ', 'WAZ', 'WHZ', 'stunted', 'underweight', 'wasted']
+
+  Missing values per column (non-zero only):
+    WHZ                           26,676 (11.7%)
+    wasted                        26,676 (11.7%)
+    HAZ                           22,338 (9.8%)
+    stunted                       22,338 (9.8%)
+    WAZ                           17,841 (7.8%)
+    underweight                   17,841 (7.8%)
+
+SECTION 3: VALIDATION CHECKS
+──────────────────────────────────────────────────────────────────────
+  Running validate_all_soft() — collects all failures
+
+
+======================================================================
+VALIDATION RUN: generate_report — 2026-05-01 09:33:33 UTC
+Timestamp: 2026-05-01 09:33:33 UTC
+======================================================================
+
+  [PASS] row_count  — 228356
+  [PASS] no_missing_codes  — True
+  [PASS] z_score_scale  — True
+  [PASS] label_binary  — True
+  [PASS] no_duplicates  — 0
+
+Summary: 5 passed, 0 failed — ALL PASSED
+  RESULT: ALL 6 CHECKS PASSED
+
+SECTION 4: PREVALENCE AND CLASS BALANCE
+──────────────────────────────────────────────────────────────────────
+  Phenotype              Measured           Threshold    Status
+  -------------------- ----------  ------------------  --------
+  stunted                  35.5%  30% – 42%              PASS
+  underweight              30.9%  30% – 35%              PASS
+  wasted                   18.6%  17% – 22%              PASS
+
+  XGBoost scale_pos_weight:
+    stunted              1.7864
+    underweight          2.4099
+    wasted               4.3937
+
+SECTION 5: TRAIN / TEST SPLIT
+──────────────────────────────────────────────────────────────────────
+  X_train        159,036 rows  x  11 cols
+  X_test          39,760 rows  x  11 cols
+  y_train        159,036 rows  x  3 cols
+  y_test          39,760 rows  x  3 cols
+
+SECTION 6: OVERALL VERDICT
+======================================================================
+  VERDICT: PASS
+  All validation checks passed. Dataset ready for model training.
+======================================================================
+
+
+======================================================================
+VALIDATION RUN: Initial NFHS-5 data validation — post-download gates
+Timestamp: 2026-05-01 12:10:08 UTC
+======================================================================
+
+  [PASS] G1: Row count above minimum  — 211,639 rows (min 190,000)
+  [PASS] G2: No DHS missing codes remain  — All 9996-9999 replaced with NaN
+  [PASS] G3: Z-scores within physiological range [-6, +6]  — All clear
+  [PASS] G4: Stunting prevalence within expected range  — 34.5% (expected 30%–42%)
+  [PASS] G5: Underweight prevalence within expected range  — 30.7% (expected 27%–38%)
+  [PASS] G6: Wasting prevalence within expected range  — 17.7% (expected 15%–25%)
+  [PASS] G7: Target labels contain only 0 and 1  — 3 columns verified
+  [PASS] G8: No duplicate rows  — All rows are unique
+  [PASS] G9: All required columns present  — ['HAZ', 'WAZ', 'WHZ', 'stunted', 'underweight', 'wasted']
+  [PASS] G10: Class weights computed  — {'stunted': 1.8964, 'underweight': 2.2539, 'wasted': 4.6357}
+  [PASS] G11: Key feature columns have no nulls  — ['HV270', 'B4', 'V025']
+  [PASS] G12: Cleaning log has entries  — 167 entries recorded
+
+Summary: 12 passed, 0 failed — ALL PASSED
+
+======================================================================
+VALIDATION RUN: Label integrity validation post-apply_who_thresholds
+Timestamp: 2026-05-01 12:26:18 UTC
+======================================================================
+
+  [PASS] V1: All target columns present  — ['stunted', 'underweight', 'wasted']
+  [PASS] V2: stunted is binary  — Values: {0, 1}
+  [PASS] V2: underweight is binary  — Values: {0, 1}
+  [PASS] V2: wasted is binary  — Values: {0, 1}
+  [PASS] V3: stunted prevalence in expected range  — 35.5% (expected 30%–42%)
+  [PASS] V4: underweight prevalence in expected range  — 30.9% (expected 27%–38%)
+  [PASS] V5: wasted prevalence in expected range  — 18.6% (expected 15%–25%)
+  [PASS] V6: Row count meets minimum  — 228,356
+  [PASS] V7: Label-Z-score consistency  — No orphaned Z-scores
+
+Summary: 9 passed, 0 failed — ALL PASSED
+
+======================================================================
+MALNUTRISENSE — DATA VALIDATION REPORT
+Generated: 2026-05-01 12:27:55 UTC
+Script:    scripts/generate_report.py
+======================================================================
+
+SECTION 1: ENVIRONMENT
+──────────────────────────────────────────────────────────────────────
+  Python version:  3.12.1
+  Platform:        Linux 6.8.0-1044-azure
+  Environment:     PASS
+  Cleaned data:    /workspaces/malnutrisense/data/processed/nfhs5_cleaned.csv
+
+SECTION 2: DATASET STATISTICS
+──────────────────────────────────────────────────────────────────────
+  Rows:     228,356
+  Columns:  17
+  Cols:     ['v024', 'v025', 'v106', 'v130', 'b4', 'm4', 'm19', 'h11', 'hw1', 'hw2', 'hw3', 'HAZ', 'WAZ', 'WHZ', 'stunted', 'underweight', 'wasted']
+
+  Missing values per column (non-zero only):
+    WHZ                           26,676 (11.7%)
+    wasted                        26,676 (11.7%)
+    HAZ                           22,338 (9.8%)
+    stunted                       22,338 (9.8%)
+    WAZ                           17,841 (7.8%)
+    underweight                   17,841 (7.8%)
+
+SECTION 3: VALIDATION CHECKS
+──────────────────────────────────────────────────────────────────────
+  Running validate_all_soft() — collects all failures
+
+
+======================================================================
+VALIDATION RUN: generate_report — 2026-05-01 12:27:55 UTC
+Timestamp: 2026-05-01 12:27:55 UTC
+======================================================================
+
+  [PASS] row_count  — 228356
+  [PASS] no_missing_codes  — True
+  [PASS] z_score_scale  — True
+  [PASS] label_binary  — True
+  [PASS] no_duplicates  — 0
+
+Summary: 5 passed, 0 failed — ALL PASSED
+  RESULT: ALL 6 CHECKS PASSED
+
+SECTION 4: PREVALENCE AND CLASS BALANCE
+──────────────────────────────────────────────────────────────────────
+  Phenotype              Measured           Threshold    Status
+  -------------------- ----------  ------------------  --------
+  stunted                  35.5%  30% – 42%              PASS
+  underweight              30.9%  30% – 35%              PASS
+  wasted                   18.6%  17% – 22%              PASS
+
+  XGBoost scale_pos_weight:
+    stunted              1.7864
+    underweight          2.4099
+    wasted               4.3937
+
+SECTION 5: TRAIN / TEST SPLIT
+──────────────────────────────────────────────────────────────────────
+  X_train        159,036 rows  x  11 cols
+  X_test          39,760 rows  x  11 cols
+  y_train        159,036 rows  x  3 cols
+  y_test          39,760 rows  x  3 cols
+
+SECTION 6: OVERALL VERDICT
+======================================================================
+  VERDICT: PASS
+  All validation checks passed. Dataset ready for model training.
+======================================================================
+
+
+======================================================================
+VALIDATION RUN: Synthetic valid test
+Timestamp: 2026-05-11 15:58:20 UTC
+======================================================================
+
+  [PASS] row_count  — 191000
+  [PASS] no_missing_codes  — True
+  [PASS] z_score_scale  — True
+  [PASS] label_binary  — True
+  [PASS] no_duplicates  — 0
+  [PASS] prevalence  — {'stunted': 0.3491, 'underweight': 0.3195, 'wasted': 0.19}
+
+Summary: 6 passed, 0 failed — ALL PASSED
+
+======================================================================
+VALIDATION RUN: Multi-failure test
+Timestamp: 2026-05-11 15:58:20 UTC
+======================================================================
+
+  [PASS] row_count  — 191000
+  [PASS] no_missing_codes  — True
+  [PASS] z_score_scale  — True
+  [PASS] label_binary  — True
+  [PASS] no_duplicates  — 0
+  [FAIL] prevalence  — 
+[VALIDATION FAILED] stunted_prevalence
+  Found:    0.00%
+  Expected: 30% – 42%  (source: NFHS-5 National Fact Sheet (2019-21), India)
+  Action:   Prevalence is too low. Check missing code replacement
+  [FAIL] prevalence  — 
+[VALIDATION FAILED] wasted_prevalence
+  Found:    0.00%
+  Expected: 17% – 22%  (source: NFHS-5 National Fact Sheet (2019-21), India)
+  Action:   Prevalence is too low. Check missing code replacement,
+
+Summary: 5 passed, 2 failed — FAILED (2 failures)
+
+======================================================================
+MALNUTRISENSE — DATA VALIDATION REPORT
+Generated: 2026-05-11 15:59:20 UTC
+Script:    scripts/generate_report.py
+======================================================================
+
+SECTION 1: ENVIRONMENT
+──────────────────────────────────────────────────────────────────────
+  Python version:  3.12.1
+  Platform:        Linux 6.8.0-1044-azure
+  Environment:     PASS
+  Cleaned data:    /workspaces/malnutrisense/data/processed/nfhs5_cleaned.csv
+
+SECTION 2: DATASET STATISTICS
+──────────────────────────────────────────────────────────────────────
+  Rows:     228,356
+  Columns:  17
+  Cols:     ['v024', 'v025', 'v106', 'v130', 'b4', 'm4', 'm19', 'h11', 'hw1', 'hw2', 'hw3', 'HAZ', 'WAZ', 'WHZ', 'stunted', 'underweight', 'wasted']
+
+  Missing values per column (non-zero only):
+    WHZ                           26,676 (11.7%)
+    wasted                        26,676 (11.7%)
+    HAZ                           22,338 (9.8%)
+    stunted                       22,338 (9.8%)
+    WAZ                           17,841 (7.8%)
+    underweight                   17,841 (7.8%)
+
+SECTION 3: VALIDATION CHECKS
+──────────────────────────────────────────────────────────────────────
+  Running validate_all_soft() — collects all failures
+
+
+======================================================================
+VALIDATION RUN: generate_report — 2026-05-11 15:59:20 UTC
+Timestamp: 2026-05-11 15:59:21 UTC
+======================================================================
+
+  [PASS] row_count  — 228356
+  [PASS] no_missing_codes  — True
+  [PASS] z_score_scale  — True
+  [PASS] label_binary  — True
+  [PASS] no_duplicates  — 0
+
+Summary: 5 passed, 0 failed — ALL PASSED
+  RESULT: ALL 6 CHECKS PASSED
+
+SECTION 4: PREVALENCE AND CLASS BALANCE
+──────────────────────────────────────────────────────────────────────
+  Phenotype              Measured           Threshold    Status
+  -------------------- ----------  ------------------  --------
+  stunted                  35.5%  30% – 42%              PASS
+  underweight              30.9%  30% – 35%              PASS
+  wasted                   18.6%  17% – 22%              PASS
+
+  XGBoost scale_pos_weight:
+    stunted              1.7864
+    underweight          2.4099
+    wasted               4.3937
+
+SECTION 5: TRAIN / TEST SPLIT
+──────────────────────────────────────────────────────────────────────
+  X_train        159,036 rows  x  11 cols
+  X_test          39,760 rows  x  11 cols
+  y_train        159,036 rows  x  3 cols
+  y_test          39,760 rows  x  3 cols
+
+SECTION 6: OVERALL VERDICT
+======================================================================
+  VERDICT: PASS
+  All validation checks passed. Dataset ready for model training.
+======================================================================
+
+
+======================================================================
+VALIDATION RUN: VERIFY: intentional failure
+Timestamp: 2026-05-11 15:59:52 UTC
+======================================================================
+
+  [PASS] row_count  — 190100
+  [PASS] no_missing_codes  — True
+  [PASS] z_score_scale  — True
+  [PASS] label_binary  — True
+  [PASS] no_duplicates  — 0
+  [FAIL] prevalence  — 
+[VALIDATION FAILED] stunted_prevalence
+  Found:    4.97%
+  Expected: 30% – 42%  (source: NFHS-5 National Fact Sheet (2019-21), India)
+  Action:   Prevalence is too low. Check missing code replacement
+
+Summary: 5 passed, 1 failed — FAILED (1 failures)
+
+======================================================================
+VALIDATION RUN: Initial NFHS-5 data validation — post-download gates
+Timestamp: 2026-05-11 16:12:21 UTC
+======================================================================
+
+  [PASS] G1: Row count above minimum  — 211,639 rows (min 190,000)
+  [PASS] G2: No DHS missing codes remain  — All 9996-9999 replaced with NaN
+  [PASS] G3: Z-scores within physiological range [-6, +6]  — All clear
+  [PASS] G4: Stunting prevalence within expected range  — 34.5% (expected 30%–42%)
+  [PASS] G5: Underweight prevalence within expected range  — 30.7% (expected 27%–38%)
+  [PASS] G6: Wasting prevalence within expected range  — 17.7% (expected 15%–25%)
+  [PASS] G7: Target labels contain only 0 and 1  — 3 columns verified
+  [PASS] G8: No duplicate rows  — All rows are unique
+  [PASS] G9: All required columns present  — ['HAZ', 'WAZ', 'WHZ', 'stunted', 'underweight', 'wasted']
+  [PASS] G10: Class weights computed  — {'stunted': 1.8964, 'underweight': 2.2539, 'wasted': 4.6357}
+  [PASS] G11: Key feature columns have no nulls  — ['HV270', 'B4', 'V025']
+  [PASS] G12: Cleaning log has entries  — 212 entries recorded
+
+Summary: 12 passed, 0 failed — ALL PASSED
+
+======================================================================
+VALIDATION RUN: Label integrity validation post-apply_who_thresholds
+Timestamp: 2026-05-11 16:20:07 UTC
+======================================================================
+
+  [PASS] V1: All target columns present  — ['stunted', 'underweight', 'wasted']
+  [PASS] V2: stunted is binary  — Values: {0, 1}
+  [PASS] V2: underweight is binary  — Values: {0, 1}
+  [PASS] V2: wasted is binary  — Values: {0, 1}
+  [PASS] V3: stunted prevalence in expected range  — 35.5% (expected 30%–42%)
+  [PASS] V4: underweight prevalence in expected range  — 30.9% (expected 27%–38%)
+  [PASS] V5: wasted prevalence in expected range  — 18.6% (expected 15%–25%)
+  [PASS] V6: Row count meets minimum  — 228,356
+  [PASS] V7: Label-Z-score consistency  — No orphaned Z-scores
+
+Summary: 9 passed, 0 failed — ALL PASSED
+
+======================================================================
+MALNUTRISENSE — DATA VALIDATION REPORT
+Generated: 2026-05-11 16:20:26 UTC
+Script:    scripts/generate_report.py
+======================================================================
+
+SECTION 1: ENVIRONMENT
+──────────────────────────────────────────────────────────────────────
+  Python version:  3.12.1
+  Platform:        Linux 6.8.0-1044-azure
+  Environment:     PASS
+  Cleaned data:    /workspaces/malnutrisense/data/processed/nfhs5_cleaned.csv
+
+SECTION 2: DATASET STATISTICS
+──────────────────────────────────────────────────────────────────────
+  Rows:     228,356
+  Columns:  17
+  Cols:     ['v024', 'v025', 'v106', 'v130', 'b4', 'm4', 'm19', 'h11', 'hw1', 'hw2', 'hw3', 'HAZ', 'WAZ', 'WHZ', 'stunted', 'underweight', 'wasted']
+
+  Missing values per column (non-zero only):
+    WHZ                           26,676 (11.7%)
+    wasted                        26,676 (11.7%)
+    HAZ                           22,338 (9.8%)
+    stunted                       22,338 (9.8%)
+    WAZ                           17,841 (7.8%)
+    underweight                   17,841 (7.8%)
+
+SECTION 3: VALIDATION CHECKS
+──────────────────────────────────────────────────────────────────────
+  Running validate_all_soft() — collects all failures
+
+
+======================================================================
+VALIDATION RUN: generate_report — 2026-05-11 16:20:26 UTC
+Timestamp: 2026-05-11 16:20:26 UTC
+======================================================================
+
+  [PASS] row_count  — 228356
+  [PASS] no_missing_codes  — True
+  [PASS] z_score_scale  — True
+  [PASS] label_binary  — True
+  [PASS] no_duplicates  — 0
+
+Summary: 5 passed, 0 failed — ALL PASSED
+  RESULT: ALL 6 CHECKS PASSED
+
+SECTION 4: PREVALENCE AND CLASS BALANCE
+──────────────────────────────────────────────────────────────────────
+  Phenotype              Measured           Threshold    Status
+  -------------------- ----------  ------------------  --------
+  stunted                  35.5%  30% – 42%              PASS
+  underweight              30.9%  30% – 35%              PASS
+  wasted                   18.6%  17% – 22%              PASS
+
+  XGBoost scale_pos_weight:
+    stunted              1.7864
+    underweight          2.4099
+    wasted               4.3937
+
+SECTION 5: TRAIN / TEST SPLIT
+──────────────────────────────────────────────────────────────────────
+  X_train        159,036 rows  x  11 cols
+  X_test          39,760 rows  x  11 cols
+  y_train        159,036 rows  x  3 cols
+  y_test          39,760 rows  x  3 cols
+
+SECTION 6: OVERALL VERDICT
+======================================================================
+  VERDICT: PASS
+  All validation checks passed. Dataset ready for model training.
+======================================================================
+
+
+======================================================================
+VALIDATION RUN: Initial NFHS-5 data validation — post-download gates
+Timestamp: 2026-05-11 16:25:06 UTC
+======================================================================
+
+  [PASS] G1: Row count above minimum  — 211,639 rows (min 190,000)
+  [PASS] G2: No DHS missing codes remain  — All 9996-9999 replaced with NaN
+  [PASS] G3: Z-scores within physiological range [-6, +6]  — All clear
+  [PASS] G4: Stunting prevalence within expected range  — 34.5% (expected 30%–42%)
+  [PASS] G5: Underweight prevalence within expected range  — 30.7% (expected 27%–38%)
+  [PASS] G6: Wasting prevalence within expected range  — 17.7% (expected 15%–25%)
+  [PASS] G7: Target labels contain only 0 and 1  — 3 columns verified
+  [PASS] G8: No duplicate rows  — All rows are unique
+  [PASS] G9: All required columns present  — ['HAZ', 'WAZ', 'WHZ', 'stunted', 'underweight', 'wasted']
+  [PASS] G10: Class weights computed  — {'stunted': 1.8964, 'underweight': 2.2539, 'wasted': 4.6357}
+  [PASS] G11: Key feature columns have no nulls  — ['HV270', 'B4', 'V025']
+  [PASS] G12: Cleaning log has entries  — 243 entries recorded
+
+Summary: 12 passed, 0 failed — ALL PASSED
+
+======================================================================
+VALIDATION RUN: Label integrity validation post-apply_who_thresholds
+Timestamp: 2026-05-11 16:25:16 UTC
+======================================================================
+
+  [PASS] V1: All target columns present  — ['stunted', 'underweight', 'wasted']
+  [PASS] V2: stunted is binary  — Values: {0, 1}
+  [PASS] V2: underweight is binary  — Values: {0, 1}
+  [PASS] V2: wasted is binary  — Values: {0, 1}
+  [PASS] V3: stunted prevalence in expected range  — 35.5% (expected 30%–42%)
+  [PASS] V4: underweight prevalence in expected range  — 30.9% (expected 27%–38%)
+  [PASS] V5: wasted prevalence in expected range  — 18.6% (expected 15%–25%)
+  [PASS] V6: Row count meets minimum  — 228,356
+  [PASS] V7: Label-Z-score consistency  — No orphaned Z-scores
+
+Summary: 9 passed, 0 failed — ALL PASSED
+
+======================================================================
+MALNUTRISENSE — DATA VALIDATION REPORT
+Generated: 2026-05-11 16:25:20 UTC
+Script:    scripts/generate_report.py
+======================================================================
+
+SECTION 1: ENVIRONMENT
+──────────────────────────────────────────────────────────────────────
+  Python version:  3.12.1
+  Platform:        Linux 6.8.0-1044-azure
+  Environment:     PASS
+  Cleaned data:    /workspaces/malnutrisense/data/processed/nfhs5_cleaned.csv
+
+SECTION 2: DATASET STATISTICS
+──────────────────────────────────────────────────────────────────────
+  Rows:     228,356
+  Columns:  17
+  Cols:     ['v024', 'v025', 'v106', 'v130', 'b4', 'm4', 'm19', 'h11', 'hw1', 'hw2', 'hw3', 'HAZ', 'WAZ', 'WHZ', 'stunted', 'underweight', 'wasted']
+
+  Missing values per column (non-zero only):
+    WHZ                           26,676 (11.7%)
+    wasted                        26,676 (11.7%)
+    HAZ                           22,338 (9.8%)
+    stunted                       22,338 (9.8%)
+    WAZ                           17,841 (7.8%)
+    underweight                   17,841 (7.8%)
+
+SECTION 3: VALIDATION CHECKS
+──────────────────────────────────────────────────────────────────────
+  Running validate_all_soft() — collects all failures
+
+
+======================================================================
+VALIDATION RUN: generate_report — 2026-05-11 16:25:20 UTC
+Timestamp: 2026-05-11 16:25:20 UTC
+======================================================================
+
+  [PASS] row_count  — 228356
+  [PASS] no_missing_codes  — True
+  [PASS] z_score_scale  — True
+  [PASS] label_binary  — True
+  [PASS] no_duplicates  — 0
+
+Summary: 5 passed, 0 failed — ALL PASSED
+  RESULT: ALL 6 CHECKS PASSED
+
+SECTION 4: PREVALENCE AND CLASS BALANCE
+──────────────────────────────────────────────────────────────────────
+  Phenotype              Measured           Threshold    Status
+  -------------------- ----------  ------------------  --------
+  stunted                  35.5%  30% – 42%              PASS
+  underweight              30.9%  30% – 35%              PASS
+  wasted                   18.6%  17% – 22%              PASS
+
+  XGBoost scale_pos_weight:
+    stunted              1.7864
+    underweight          2.4099
+    wasted               4.3937
+
+SECTION 5: TRAIN / TEST SPLIT
+──────────────────────────────────────────────────────────────────────
+  X_train        159,036 rows  x  11 cols
+  X_test          39,760 rows  x  11 cols
+  y_train        159,036 rows  x  3 cols
+  y_test          39,760 rows  x  3 cols
+
+SECTION 6: OVERALL VERDICT
+======================================================================
+  VERDICT: PASS
+  All validation checks passed. Dataset ready for model training.
+======================================================================
+
+
+======================================================================
+VALIDATION RUN: Initial NFHS-5 data validation — post-download gates
+Timestamp: 2026-05-11 16:26:19 UTC
+======================================================================
+
+  [PASS] G1: Row count above minimum  — 211,639 rows (min 190,000)
+  [PASS] G2: No DHS missing codes remain  — All 9996-9999 replaced with NaN
+  [PASS] G3: Z-scores within physiological range [-6, +6]  — All clear
+  [PASS] G4: Stunting prevalence within expected range  — 34.5% (expected 30%–42%)
+  [PASS] G5: Underweight prevalence within expected range  — 30.7% (expected 27%–38%)
+  [PASS] G6: Wasting prevalence within expected range  — 17.7% (expected 15%–25%)
+  [PASS] G7: Target labels contain only 0 and 1  — 3 columns verified
+  [PASS] G8: No duplicate rows  — All rows are unique
+  [PASS] G9: All required columns present  — ['HAZ', 'WAZ', 'WHZ', 'stunted', 'underweight', 'wasted']
+  [PASS] G10: Class weights computed  — {'stunted': 1.8964, 'underweight': 2.2539, 'wasted': 4.6357}
+  [PASS] G11: Key feature columns have no nulls  — ['HV270', 'B4', 'V025']
+  [PASS] G12: Cleaning log has entries  — 269 entries recorded
+
+Summary: 12 passed, 0 failed — ALL PASSED
+
+======================================================================
+VALIDATION RUN: Label integrity validation post-apply_who_thresholds
+Timestamp: 2026-05-11 16:26:28 UTC
+======================================================================
+
+  [PASS] V1: All target columns present  — ['stunted', 'underweight', 'wasted']
+  [PASS] V2: stunted is binary  — Values: {0, 1}
+  [PASS] V2: underweight is binary  — Values: {0, 1}
+  [PASS] V2: wasted is binary  — Values: {0, 1}
+  [PASS] V3: stunted prevalence in expected range  — 35.5% (expected 30%–42%)
+  [PASS] V4: underweight prevalence in expected range  — 30.9% (expected 27%–38%)
+  [PASS] V5: wasted prevalence in expected range  — 18.6% (expected 15%–25%)
+  [PASS] V6: Row count meets minimum  — 228,356
+  [PASS] V7: Label-Z-score consistency  — No orphaned Z-scores
+
+Summary: 9 passed, 0 failed — ALL PASSED
+
+======================================================================
+MALNUTRISENSE — DATA VALIDATION REPORT
+Generated: 2026-05-11 16:26:33 UTC
+Script:    scripts/generate_report.py
+======================================================================
+
+SECTION 1: ENVIRONMENT
+──────────────────────────────────────────────────────────────────────
+  Python version:  3.12.1
+  Platform:        Linux 6.8.0-1044-azure
+  Environment:     PASS
+  Cleaned data:    /workspaces/malnutrisense/data/processed/nfhs5_cleaned.csv
+
+SECTION 2: DATASET STATISTICS
+──────────────────────────────────────────────────────────────────────
+  Rows:     228,356
+  Columns:  17
+  Cols:     ['v024', 'v025', 'v106', 'v130', 'b4', 'm4', 'm19', 'h11', 'hw1', 'hw2', 'hw3', 'HAZ', 'WAZ', 'WHZ', 'stunted', 'underweight', 'wasted']
+
+  Missing values per column (non-zero only):
+    WHZ                           26,676 (11.7%)
+    wasted                        26,676 (11.7%)
+    HAZ                           22,338 (9.8%)
+    stunted                       22,338 (9.8%)
+    WAZ                           17,841 (7.8%)
+    underweight                   17,841 (7.8%)
+
+SECTION 3: VALIDATION CHECKS
+──────────────────────────────────────────────────────────────────────
+  Running validate_all_soft() — collects all failures
+
+
+======================================================================
+VALIDATION RUN: generate_report — 2026-05-11 16:26:33 UTC
+Timestamp: 2026-05-11 16:26:33 UTC
+======================================================================
+
+  [PASS] row_count  — 228356
+  [PASS] no_missing_codes  — True
+  [PASS] z_score_scale  — True
+  [PASS] label_binary  — True
+  [PASS] no_duplicates  — 0
+
+Summary: 5 passed, 0 failed — ALL PASSED
+  RESULT: ALL 6 CHECKS PASSED
+
+SECTION 4: PREVALENCE AND CLASS BALANCE
+──────────────────────────────────────────────────────────────────────
+  Phenotype              Measured           Threshold    Status
+  -------------------- ----------  ------------------  --------
+  stunted                  35.5%  30% – 42%              PASS
+  underweight              30.9%  30% – 35%              PASS
+  wasted                   18.6%  17% – 22%              PASS
+
+  XGBoost scale_pos_weight:
+    stunted              1.7864
+    underweight          2.4099
+    wasted               4.3937
+
+SECTION 5: TRAIN / TEST SPLIT
+──────────────────────────────────────────────────────────────────────
+  X_train        159,036 rows  x  11 cols
+  X_test          39,760 rows  x  11 cols
+  y_train        159,036 rows  x  3 cols
+  y_test          39,760 rows  x  3 cols
+
+SECTION 6: OVERALL VERDICT
+======================================================================
+  VERDICT: PASS
+  All validation checks passed. Dataset ready for model training.
+======================================================================
+

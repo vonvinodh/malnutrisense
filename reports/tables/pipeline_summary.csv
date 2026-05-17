@@ -1,0 +1,6 @@
+split,rows,cols
+full_cleaned,228356,17
+X_train,159036,11
+X_test,39760,11
+y_train,159036,3
+y_test,39760,3

@@ -1,0 +1,16 @@
+model,label,recall,precision,f1,roc_auc,n_test
+mltp_xgb,stunted,0.9919,0.9395,0.965,0.9985,39760
+mltp_lgbm,stunted,0.9868,0.9508,0.9684,0.9986,39760
+xgb_single,stunted,0.9822,0.9576,0.9697,0.9986,39760
+random_forest,stunted,0.9608,0.8609,0.9081,0.9873,39760
+logistic,stunted,0.845,0.7434,0.7909,0.9223,39760
+mltp_xgb,underweight,0.9918,0.9369,0.9635,0.9989,39760
+xgb_single,underweight,0.9876,0.9516,0.9693,0.999,39760
+mltp_lgbm,underweight,0.9859,0.952,0.9687,0.9991,39760
+random_forest,underweight,0.9593,0.7908,0.8669,0.986,39760
+logistic,underweight,0.924,0.785,0.8488,0.9624,39760
+xgb_single,wasted,0.9966,0.9213,0.9575,0.9994,39760
+mltp_xgb,wasted,0.9909,0.9361,0.9627,0.9993,39760
+mltp_lgbm,wasted,0.989,0.957,0.9727,0.9996,39760
+random_forest,wasted,0.9867,0.7265,0.8369,0.9942,39760
+logistic,wasted,0.9752,0.8342,0.8992,0.9947,39760

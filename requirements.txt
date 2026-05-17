@@ -1,0 +1,62 @@
+# =================================================================
+# MalnutriSense — Python 3.11 Dependencies (all versions pinned)
+# Install: pip install -r requirements.txt
+# =================================================================
+ 
+# ── Data loading & processing ─────────────────────────────────────
+pandas==2.2.2
+numpy==1.26.4
+pyreadstat==1.2.7          # Reads NFHS Stata .DTA files
+ 
+# ── Machine learning ──────────────────────────────────────────────
+scikit-learn==1.5.2
+xgboost==2.1.1
+lightgbm==4.5.0
+imbalanced-learn==0.12.3   # SMOTE for class imbalance
+ 
+# ── Explainability (Objective 3) ──────────────────────────────────
+shap==0.46.0
+ 
+# ── Fairness auditing (Objective 4) ──────────────────────────────
+fairlearn==0.11.0
+ 
+# ── Geospatial ────────────────────────────────────────────────────
+geopandas==0.14.4
+shapely==2.0.6
+fiona==1.9.6
+pyproj==3.6.1
+rasterstats==0.19.0
+ 
+# ── API backend (Objective 2) ────────────────────────────────────
+fastapi==0.115.4
+uvicorn==0.32.1
+pydantic==2.9.2
+python-multipart==0.0.12
+ 
+# ── Model persistence ─────────────────────────────────────────────
+joblib==1.4.2
+ 
+# ── Visualisation ─────────────────────────────────────────────────
+matplotlib==3.9.2
+seaborn==0.13.2
+plotly==5.24.1
+ 
+# ── Dashboard (Objective 2) ───────────────────────────────────────
+streamlit==1.40.2
+ 
+# ── Experiment tracking ───────────────────────────────────────────
+mlflow==2.17.2
+ 
+# ── Notebooks ────────────────────────────────────────────────────
+jupyter==1.1.1
+ipykernel==6.29.5
+ipywidgets==8.1.5
+ 
+# ── Testing ──────────────────────────────────────────────────────
+pytest==8.3.3
+pytest-cov==5.0.0
+ 
+# ── Utilities ────────────────────────────────────────────────────
+python-dotenv==1.0.1
+tqdm==4.67.1
+requests==2.32.3

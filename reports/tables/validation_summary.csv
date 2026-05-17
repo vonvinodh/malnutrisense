@@ -1,0 +1,4 @@
+phenotype,measured,lo,hi,status
+stunted,0.3547,0.3,0.42,PASS
+underweight,0.309,0.3,0.35,PASS
+wasted,0.1862,0.17,0.22,PASS

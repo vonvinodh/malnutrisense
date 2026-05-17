@@ -1,0 +1,37 @@
+# Large DHS data files — NEVER commit
+data/raw/nfhs5/*.DTA
+data/raw/nfhs4/*.DTA
+data/raw/*.DTA
+
+
+# Processed data (can be regenerated from raw)
+data/processed/*.csv
+data/interim/*.csv
+
+
+# Trained models (can be hundreds of MB)
+models/*.pkl
+models/*.joblib
+
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Reports — keep structure, not generated files
+reports/figures/*.png
+reports/figures/*.pdf
+EOF
